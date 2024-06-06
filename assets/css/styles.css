@@ -273,9 +273,162 @@ nav i {
   line-height: 1.4;
 }
 
-/*Section [name]*/
+/*Section [FAQ]*/
+.faq {
+  max-width: 1281px;
+  margin: 0 auto;
+  display: flex;
+  height: auto;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
 
-/*Section [name]*/
+.faq h6 {
+  font-size: 2rem;
+  color: #22c55e;
+}
+
+.faq-nav ul li {
+  color: black;
+}
+
+.headline {
+  width: 40%;
+  height: 50px;
+  background-color: rgb(18, 85, 162);
+  text-align: center;
+  font-size: 1.7rem;
+  align-self: center;
+  color: white;
+  font-weight: bold;
+  align-content: center;
+  text-decoration: underline;
+}
+
+.faq-container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+
+.faq header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  width: 40%;
+  height: 50px;
+  background-color: white;
+  color: white;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.faq article {
+  width: 40%;
+  height: auto;
+  text-align: center;
+  background-color: white;
+}
+
+.faq article p {
+  color: black;
+  font-size: 1.4rem;
+}
+
+.faq h4 {
+  text-align: start;
+  align-self: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
+
+.faq i {
+  font-size: 1.7rem;
+}
+
+.faq i:nth-child(2) {
+  display: none;
+}
+
+#faqHide_1,
+#faqHide_2,
+#faqHide_3 {
+  display: none;
+}
+
+.fa-caret-down,
+.fa-caret-up {
+  color: black;
+}
+
+/*Section [Customers]*/
+.customers {
+  max-width: 1281px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 102px;
+}
+
+.customers-container {
+  background-color: #ff4922;
+  max-width: 1281px;
+  height: 327px;
+  border-radius: 25px;
+  align-content: center;
+}
+
+.customers h3 {
+  color: white;
+}
+
+.customers h2 {
+  margin-bottom: 32px;
+}
+
+.line-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+
+.line-text::before,
+.line-text::after {
+  content: "";
+  flex: 1;
+  margin: 0 10px;
+  transform: translateY(50%);
+}
+
+.line-text::before {
+  margin-right: 10px;
+}
+
+.line-text::after {
+  margin-left: 10px;
+}
+
+.line-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  width: 100px;
+  border-bottom: 3px solid white;
+  margin: 0 10px;
+}
 
 /*Section [name]*/
 
