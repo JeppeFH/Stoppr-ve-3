@@ -390,7 +390,10 @@ nav i {
 
 #faqHide_1,
 #faqHide_2,
-#faqHide_3 {
+#faqHide_3,
+#faqHide_4,
+#faqHide_5,
+#faqHide_6 {
   display: none;
 }
 
