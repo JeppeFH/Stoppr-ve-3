@@ -67,7 +67,7 @@ nav {
 
 nav ul {
   display: flex;
-  gap: 20px;
+  gap: 45px;
   list-style: none;
   margin-right: auto;
 }
@@ -102,8 +102,7 @@ nav i {
   display: none;
 }
 
-/*Responsive*/
-
+/*Responsive nav*/
 @media screen and (max-width: 768px) {
   .nav-links {
     position: relative;
@@ -124,6 +123,10 @@ nav i {
     width: 100%;
     height: auto;
     padding: 20px 0 20px 0;
+  }
+
+  .nav-links a:hover {
+    color: white;
   }
 
   .logo {
@@ -169,7 +172,6 @@ nav i {
 
 .hero-container {
   width: 100%;
-
   align-content: center;
 }
 
@@ -183,11 +185,15 @@ nav i {
 }
 
 .hero h2:nth-child(2) {
+  margin-bottom: 45px;
+}
+
+.hero h2:nth-child(2) {
   margin-bottom: 10px;
 }
 
-.hero-h4-last {
-  margin-bottom: 10px;
+.hero-p-last {
+  margin-bottom: 30px;
 }
 
 .getstarted-btn {
@@ -198,7 +204,7 @@ nav i {
   padding: 10px 40px;
   font-size: 2.4rem;
   cursor: pointer;
-  border-radius: 25px;
+  border-radius: 50px;
   text-decoration: none;
   font-weight: bold;
 }
@@ -506,6 +512,10 @@ footer p {
 .fa-envelope {
   color: black;
   font-size: 1.8rem;
+}
+
+footer figure {
+  align-content: center;
 }
 
 /*Responsive*/
