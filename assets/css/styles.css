@@ -55,27 +55,32 @@ p {
 }
 
 /*Navigation*/
-/*Navigation*/
 nav {
   height: 195px;
-  max-width: 1440px;
+  max-width: 1281px;
   align-items: center;
   justify-content: center;
   background-color: white;
   display: flex;
+  margin: 0 auto;
 }
 
 nav ul {
   display: flex;
   gap: 20px;
   list-style: none;
+  margin-right: auto;
 }
 
 nav a {
-  font-size: 2.4rem;
+  font-size: 4.4rem;
   font-weight: bold;
   color: black;
   text-decoration: none;
+}
+
+.nav-links a {
+  font-size: 1.8rem;
 }
 
 .logo {
@@ -119,6 +124,10 @@ nav i {
     width: 100%;
     height: auto;
     padding: 20px 0 20px 0;
+  }
+
+  .logo {
+    margin-right: 450px;
   }
 
   .burgerMenuOpen {
@@ -265,8 +274,12 @@ nav i {
   flex-direction: column;
 }
 
-.zaion-helps-text-container h3 {
-  margin-bottom: 5px;
+.zaion-p {
+  font-size: 2.4rem;
+}
+
+.zaion-p:last-child {
+  margin-bottom: 10px;
 }
 
 .zaion-helps h2 {
@@ -275,67 +288,77 @@ nav i {
 
 /*Section [FAQ]*/
 .faq {
+  background-color: #f8fafc;
+  width: 100%;
+  padding-bottom: 5px;
+  margin-bottom: 60px;
+}
+
+.faq-container {
   max-width: 1281px;
   margin: 0 auto;
+  margin-bottom: 70px;
   display: flex;
-  height: auto;
-  margin: 0 auto;
-  align-items: center;
+  gap: 50px;
+  justify-content: center;
+  padding-top: 75px;
+}
+
+.faq-info-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 70px;
+  width: 656px;
 }
 
 .faq h6 {
   font-size: 2rem;
   color: #22c55e;
+  margin-bottom: 20px;
+}
+
+.faq-nav {
+  width: 490px;
 }
 
 .faq-nav ul li {
   color: black;
+  text-decoration: none;
+  list-style: none;
+  font-size: 2.4rem;
+  margin-bottom: 20px;
 }
 
-.headline {
-  width: 40%;
-  height: 50px;
-  background-color: rgb(18, 85, 162);
-  text-align: center;
-  font-size: 1.7rem;
-  align-self: center;
-  color: white;
-  font-weight: bold;
-  align-content: center;
-  text-decoration: underline;
-}
-
-.faq-container {
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 70px;
+.faq-nav ul li:hover {
+  color: #22c55e;
+  background-color: white;
+  border: 1px solid #22c55e;
+  padding: 5px;
+  width: 490px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
 }
 
 .faq header {
   display: flex;
   justify-content: space-between;
-  padding: 30px;
-  width: 40%;
+  padding: 40px;
+  width: 100%;
   height: 50px;
   background-color: white;
   color: white;
   align-items: center;
   font-weight: 600;
   font-size: 1.5rem;
+  border-bottom: 1px solid #e2e8f0;
 }
 
 .faq article {
-  width: 40%;
+  width: 100%;
   height: auto;
   text-align: center;
   background-color: white;
+  border-bottom: 1px solid #e2e8f0;
 }
 
 .faq article p {
@@ -430,9 +453,60 @@ nav i {
   margin: 0 10px;
 }
 
-/*Section [name]*/
-
 /*Footer*/
+footer {
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.footer-container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1281px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.footer-container div {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+footer h4 {
+  color: black;
+  font-weight: bold;
+  margin: 64px 0 10px 0;
+}
+
+footer p {
+  color: #707070;
+}
+
+.follow-us {
+  margin-left: auto;
+  margin-top: 64px;
+}
+
+.follow-us h3 {
+  margin-bottom: 10px;
+}
+
+.follow-us figure {
+  display: flex;
+  gap: 10px;
+}
+
+.fa-location-dot,
+.fa-phone,
+.fa-envelope {
+  color: black;
+  font-size: 1.8rem;
+}
 
 /*Responsive*/
 @media screen and (max-width: 768px) {
@@ -475,5 +549,81 @@ nav i {
   p {
     font-size: 1.6rem;
     color: #b9b9b9;
+  }
+
+  /*Hero*/
+  .hero {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  .getstarted-btn {
+    padding: 6px 25px;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+
+  .hero-h4-last {
+    margin-bottom: 20px;
+  }
+
+  .zaion-helps article {
+    gap: 0;
+  }
+
+  .zaion-helps-info-container article img {
+    align-self: center;
+  }
+
+  .zaion-p {
+    font-size: 1.9rem;
+  }
+
+  .zaion-helps h2:nth-child(2) {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 1072px) {
+  /*Section [Zaion Helps]*/
+  .zaion-helps {
+    flex-direction: column;
+  }
+
+  .zaion-helps-info-container {
+    align-self: center;
+    text-align: center;
+  }
+
+  .ai-img {
+    width: 70%;
+    height: 50%;
+    align-self: center;
+  }
+
+  .zaion-helps-text-container {
+    margin: 0 auto;
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 1135px) {
+  .faq-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .faq-nav {
+    align-items: center;
+    width: auto;
+    text-align: center;
+  }
+
+  .faq-nav ul li:hover {
+    width: auto;
+    text-align: center;
   }
 }
