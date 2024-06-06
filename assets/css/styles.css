@@ -155,6 +155,7 @@ nav i {
   display: flex;
   max-width: 1281px;
   margin: 0 auto;
+  margin-bottom: 130px;
 }
 
 .hero-container {
@@ -193,15 +194,84 @@ nav i {
   font-weight: bold;
 }
 
-/* Hover effect */
 .getstarted-btn:hover {
   background-color: #e04928;
   transition: all 250ms ease-in-out;
 }
 
-/*Section [name]*/
+/*Section [Reason Why]*/
+.reason-why {
+  max-width: 1281px;
+  margin: 0 auto;
+}
 
-/*Section [name]*/
+.reason-why h2 {
+  text-align: center;
+}
+
+.reason-why h2:nth-child(2) {
+  margin-bottom: 40px;
+}
+
+.reason-why header {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 300px;
+  row-gap: 100px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.reason-why article {
+  display: flex;
+  gap: 30px;
+}
+
+.reason-why-info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.reason-why-info-container h3 {
+  margin-bottom: 5px;
+}
+
+/*Section [Zaion Helps]*/
+.zaion-helps {
+  max-width: 1281px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 115px;
+  gap: 30px;
+}
+
+.ai-img img {
+  width: 10%;
+  height: 20%;
+}
+
+.zaion-helps-info-container article img {
+  align-self: start;
+}
+
+.zaion-helps article {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+
+.zaion-helps-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.zaion-helps-text-container h3 {
+  margin-bottom: 5px;
+}
+
+.zaion-helps h2 {
+  line-height: 1.4;
+}
 
 /*Section [name]*/
 
