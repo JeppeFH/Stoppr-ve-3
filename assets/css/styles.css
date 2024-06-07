@@ -362,14 +362,15 @@ nav i {
 .faq article {
   width: 100%;
   height: auto;
-  text-align: center;
+  text-align: start;
   background-color: white;
   border-bottom: 1px solid #e2e8f0;
+  padding: 5px 45px;
 }
 
 .faq article p {
   color: black;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .faq h4 {
@@ -397,8 +398,8 @@ nav i {
   display: none;
 }
 
-.fa-caret-down,
-.fa-caret-up {
+.fa-chevron-up,
+.fa-chevron-down {
   color: black;
 }
 
